@@ -1,0 +1,9 @@
+name: ai-travel-planner
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - flask  # Add any other required packages here
+      - numpy  # Sample extra package. Modify as needed
